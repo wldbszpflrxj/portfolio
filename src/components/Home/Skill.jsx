@@ -67,21 +67,17 @@ const Skill = () => {
                   <SiJavascript />
                   Javascript
                 </Styled.SkillLi>
-                <Styled.SkillLi>
+                {/* <Styled.SkillLi>
                   <SiTypescript />
                   Typescript
-                </Styled.SkillLi>
+                </Styled.SkillLi> */}
                 <Styled.SkillLi>
                   <SiJquery />
                   Jquery
                 </Styled.SkillLi>
                 <Styled.SkillLi>
                   <SiCss3 />
-                  css
-                </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <SiSass />
-                  scss
+                  css / scss
                 </Styled.SkillLi>
                 <Styled.SkillLi>
                   <SiWordpress />
@@ -94,10 +90,6 @@ const Skill = () => {
                 <Styled.SkillLi>
                   <SiThymeleaf />
                   Thymeleaf template
-                </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <SiHandlebarsdotjs />
-                  Handlebas template
                 </Styled.SkillLi>
               </ul>
             </div>
@@ -124,10 +116,6 @@ const Skill = () => {
                   <SiFastapi />
                   MSW
                 </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <SiSlides />
-                  React-slick
-                </Styled.SkillLi>
               </ul>
             </div>
             <div>
@@ -146,25 +134,8 @@ const Skill = () => {
                   Adobe All{" "}
                 </Styled.SkillLi>
                 <Styled.SkillLi>
-                  <SiVisualstudiocode />
-                  Vscode{" "}
-                </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <SiEclipseide />
-                  Eclips
-                </Styled.SkillLi>
-              </ul>
-            </div>
-            <div>
-              <Styled.SkillTitle>협업 툴</Styled.SkillTitle>
-              <ul>
-                <Styled.SkillLi>
                   <GiZeppelin />
                   Zeplin
-                </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <AiFillWechat />
-                  Jandi
                 </Styled.SkillLi>
               </ul>
             </div>
