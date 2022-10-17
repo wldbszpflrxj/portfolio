@@ -35,33 +35,22 @@ const InfoSection = styled.section`
     padding: 8.85vw 0;
     background: #fff;
     margin: 0 auto;
-    max-width: 1460px;
+    max-width: 1080px;
   }
 `;
 const LeftBox = styled.div`
   width: 30%;
   text-align: Center;
 `;
-const Keyword = styled.p`
-  margin-top: 30px;
-  font-size: 1vw;
-  span {
-    padding: 5px 10px;
-    border-radius: 30px;
-    background: #000;
-    color: #fff;
-    margin-right: 10px;
-  }
-`;
 const ImageWrapper = styled.div`
   line-height: 0;
 `;
 const RightBox = styled.div`
+  h2 {
+    font-size: 1.5vw;
+  }
   p {
     font-size: 1vw;
-  }
-  p + p {
-    margin-top: 30px;
   }
 `;
 
@@ -146,11 +135,16 @@ const GalleryCard = styled.div`
   margin-bottom: 1vw;
 `;
 const GalleryTitle = styled.h2`
-  font-size: 1.6vw;
+  font-size: 1.5vw;
   margin: 0 0 10px;
 `;
-const GalleryDesc = styled.p`
-  font-size: 1.1vw;
+const GalleryDescUl = styled.ul`
+  margin-left: 1em;
+`;
+const GalleryDesc = styled.li`
+  font-size: 1vw;
+  list-style: outside;
+  margin-left: 10px;
 `;
 const GalleryStack = styled.p`
   margin: 15px 0;
@@ -159,7 +153,7 @@ const GalleryStack = styled.p`
     border-radius: 10px;
     background-color: #000;
     color: #fff;
-    font-size: 1vw;
+    font-size: 0.9vw;
     margin: 0 10px 5px 0;
     letter-spacing: 0;
     display: inline-block;
@@ -184,6 +178,7 @@ export {
   GalleryCard,
   GalleryInner,
   GalleryList,
+  GalleryDescUl,
   GallerySection,
   InfoSection,
   IntroSection,
@@ -199,7 +194,6 @@ export {
   SkillTitle,
   BoldLine,
   ImageWrapper,
-  Keyword,
   GalleryDesc,
   GalleryStack,
   GalleryTitle,

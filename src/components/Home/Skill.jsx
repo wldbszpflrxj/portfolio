@@ -139,7 +139,7 @@ const Skill = () => {
                 </Styled.SkillLi>
                 <Styled.SkillLi>
                   <SiSubversion />
-                  Svn{" "}
+                  SVN{" "}
                 </Styled.SkillLi>
                 <Styled.SkillLi>
                   <SiAdobe />

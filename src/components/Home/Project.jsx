@@ -37,6 +37,11 @@ const Project = () => {
   const Stacks = ({ stacks }) => {
     return stacks.map((stack) => <span key={stack}>{stack}</span>);
   };
+
+  const Desc = ({ desc }) => {
+    return desc.map((desc) => <Styled.GalleryDesc>{desc}</Styled.GalleryDesc>);
+  };
+
   return (
     <Styled.GallerySection id="Portfolio">
       <Styled.GalleryInner>
@@ -45,7 +50,9 @@ const Project = () => {
           {projectList.map((list, idx) => (
             <Styled.GalleryCard key={idx}>
               <Styled.GalleryTitle>{list.title}</Styled.GalleryTitle>
-              <Styled.GalleryDesc>{list.desc}</Styled.GalleryDesc>
+              <Styled.GalleryDescUl>
+                <Desc desc={list.desc} />
+              </Styled.GalleryDescUl>
               <Styled.GalleryStack>
                 <Stacks stacks={list.stack} />
               </Styled.GalleryStack>
