@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineLink } from "react-icons/ai";
 import Title from "../Title/Title";
 import * as Styled from "./Footer.styled";
+import resumUrl from "@/assets/download/MyNameIs_ByeonJiYoon.pdf";
 
 const Footer = () => {
   return (
@@ -18,10 +19,7 @@ const Footer = () => {
             <Styled.FooterButton href="mailto:wldbszp@gmail.com">
               Email me. <span>wldbszp@gmail.com</span>
             </Styled.FooterButton>
-            <Styled.FooterButton
-              href="./src/assets/download/MyNameIs_ByeonJiYoon.pdf"
-              target="_blank"
-            >
+            <Styled.FooterButton href={resumUrl} target="_blank">
               이력서 <AiOutlineLink />
             </Styled.FooterButton>
           </Styled.FooterInfo>

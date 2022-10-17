@@ -3,6 +3,7 @@ import * as Styled from "./Home.styled";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Title from "../Title/Title";
+import profile from "@/assets/images/profile.png";
 
 gsap.registerPlugin(ScrollTrigger);
 const Info = () => {
@@ -54,14 +55,8 @@ const Info = () => {
         <Styled.Flex>
           <Styled.LeftBox>
             <Styled.ImageWrapper>
-              <img src="/src/assets/images/profile.png" alt="프로필 사진" />
+              <img src={profile} alt="프로필 사진" />
             </Styled.ImageWrapper>
-            {/* <Styled.Keyword>
-              <span>도전정신</span>
-              <span>커뮤니케이션</span>
-              <span>열정적</span>
-              <span>긍정적</span>
-            </Styled.Keyword> */}
           </Styled.LeftBox>
           <Styled.RightBox>
             <p>
