@@ -1,0 +1,62 @@
+export const projectList = [
+  {
+    title: "영화, TV 홈페이지 제작",
+    desc: "TMDB Api를 사용하여 목록, 상세페이지와 검색 기능을 구현하였습니다.",
+    stack: [
+      "React",
+      "Typescript",
+      "Axios",
+      "React-Query",
+      "emotion",
+      "mui",
+      "react-icons",
+    ],
+    homepage: "https://watcha-pedia.netlify.app/",
+    git: "https://github.com/wldbszpflrxj/typescript-watcha-pedia",
+  },
+  {
+    title: "React Router 기능 구현",
+    desc: "React와 History API를 사용하여 React-router-dom 기능을 구현하였습니다.",
+    stack: ["React", "Javascript"],
+    homepage: "https://spa-router.netlify.app/",
+    git: "https://github.com/wldbszpflrxj/react-router",
+  },
+  {
+    title: "투자 관리 서비스의 관리자 기능 구현",
+    desc: "Api 호출을 통해 계좌와 사용자의 목록을 보여주고 수정, 삭제 가능한 관리자페이지를 구현하였습니다.",
+    stack: [
+      "React",
+      "Json-server Api",
+      "Axios",
+      "Redux",
+      "Chakra UI",
+      "emotion",
+    ],
+    git: "https://github.com/wldbszpflrxj/6th_investment-admin",
+  },
+  {
+    title: "빙그레 웹사이트 리뉴얼 구축",
+    desc: "스프링부트 템플릿을 사용하여 빙그레 기업 공식 웹사이트를 리뉴얼 제작하였습니다.",
+    stack: ["Thymeleaf", "Jquery", "Ajax", "stock Api", "css"],
+    homepage: "https://www.bing.co.kr/#",
+  },
+  {
+    title: "뮤자인 리뉴얼 구축",
+    desc: "Canvas로 동적인 라인 인터렉션을 구현하여 홈페이지를 리뉴얼 제작하였습니다. ",
+    stack: ["Thymeleaf", "JQuery", "Canvas", "Gsap", "css"],
+    git: "https://musign.net/",
+  },
+  {
+    title: "SPC 기업사이트 리뉴얼 구축",
+    desc: "워드프레스를 기반으로 브랜드, 계열사를 통합 관리할 수 있도록 리뉴얼 제작하였습니다.",
+    stack: [
+      "Wordpress",
+      "JQuery",
+      "Axios",
+      "Redux",
+      "youtube Api",
+      "Instagram Api",
+    ],
+    git: "https://www.spc.co.kr/",
+  },
+];
