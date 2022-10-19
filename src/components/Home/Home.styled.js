@@ -32,10 +32,10 @@ const InfoSection = styled.section`
   padding: 0 4.42vw;
   > div {
     justify-content: space-around;
-    padding: 8.85vw 0;
+    padding: 8.85vw 6vw;
     background: #fff;
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 1600px;
   }
 `;
 const LeftBox = styled.div`
@@ -47,10 +47,12 @@ const ImageWrapper = styled.div`
 `;
 const RightBox = styled.div`
   h2 {
-    font-size: 1.5vw;
+    font-size: 3vw;
+    line-height: 1.4;
   }
   p {
-    font-size: 1vw;
+    font-size: 1.5vw;
+    margin: 0.1em 0;
   }
 `;
 
