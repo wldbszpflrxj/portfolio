@@ -61,7 +61,6 @@ const Skill = () => {
         <Styled.SkillBox ref={fadeRef}>
           <Styled.Flex>
             <div>
-              <Styled.SkillTitle>스킬</Styled.SkillTitle>
               <ul>
                 <Styled.SkillLi>
                   <SiJavascript />
@@ -80,6 +79,14 @@ const Skill = () => {
                   css / scss
                 </Styled.SkillLi>
                 <Styled.SkillLi>
+                  <SiReact />
+                  React.js
+                </Styled.SkillLi>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <Styled.SkillLi>
                   <SiWordpress />
                   Wordpress
                 </Styled.SkillLi>
@@ -90,15 +97,6 @@ const Skill = () => {
                 <Styled.SkillLi>
                   <SiThymeleaf />
                   Thymeleaf template
-                </Styled.SkillLi>
-              </ul>
-            </div>
-            <div>
-              <Styled.SkillTitle>프론트엔드</Styled.SkillTitle>
-              <ul>
-                <Styled.SkillLi>
-                  <SiReact />
-                  React.js
                 </Styled.SkillLi>
                 {/* <Styled.SkillLi>
                   <SiNextdotjs />
@@ -119,7 +117,6 @@ const Skill = () => {
               </ul>
             </div>
             <div>
-              <Styled.SkillTitle>업무 툴</Styled.SkillTitle>
               <ul>
                 <Styled.SkillLi>
                   <AiFillGithub />
