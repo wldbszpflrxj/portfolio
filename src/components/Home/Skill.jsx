@@ -100,7 +100,7 @@ const Skill = () => {
                   <SiReact />
                   React.js
                 </Styled.SkillLi>
-                <Styled.SkillLi>
+                {/* <Styled.SkillLi>
                   <SiNextdotjs />
                   Next.js
                 </Styled.SkillLi>
@@ -115,7 +115,7 @@ const Skill = () => {
                 <Styled.SkillLi>
                   <SiFastapi />
                   MSW
-                </Styled.SkillLi>
+                </Styled.SkillLi> */}
               </ul>
             </div>
             <div>
