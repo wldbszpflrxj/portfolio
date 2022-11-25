@@ -60,8 +60,8 @@ const Info = () => {
           </Styled.LeftBox>
           <Styled.RightBox>
             <h2>
-              꾸준히 성장하고 싶은 <br />
-              프론트엔드 개발자 변지윤입니다.
+              꾸준히 성장하는 <br />
+              웹퍼블리셔 변지윤입니다.
             </h2>
             <p>
               빠르고 정확하게 이해할 수 있는 코드를 작성하기 위해 노력합니다.
@@ -78,9 +78,9 @@ const Info = () => {
       <Styled.LineSection>
         <Styled.LineInner>
           <Styled.Line>
-            <span className="lineEffect">Front end — Developer</span>
+            <span className="lineEffect">Markup — Developer</span>
             <Styled.BoldLine></Styled.BoldLine>
-            <span className="lineEffect">Front end — Developer</span>
+            <span className="lineEffect">Markup — Developer</span>
           </Styled.Line>
         </Styled.LineInner>
       </Styled.LineSection>

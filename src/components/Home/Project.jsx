@@ -39,7 +39,9 @@ const Project = () => {
   };
 
   const Desc = ({ desc }) => {
-    return desc.map((desc) => <Styled.GalleryDesc>{desc}</Styled.GalleryDesc>);
+    return desc.map((desc, idx) => (
+      <Styled.GalleryDesc key={idx}>{desc}</Styled.GalleryDesc>
+    ));
   };
 
   return (

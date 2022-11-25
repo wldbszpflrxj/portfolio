@@ -29,18 +29,30 @@ const InfoSection = styled.section`
   margin-top: 80vh;
   position: relative;
   z-index: 10;
-  padding: 0 4.42vw;
+  padding: 0 5.3rem;
   > div {
     justify-content: space-around;
-    padding: 8.85vw 6vw;
+    padding: 10rem 7.1rem;
     background: #fff;
     margin: 0 auto;
     max-width: 1600px;
+  }
+  @media (max-width: 989px) {
+    padding: 0 30px;
+    > div {
+      padding: 80px 30px;
+    }
   }
 `;
 const LeftBox = styled.div`
   width: 30%;
   text-align: Center;
+  @media (max-width: 989px) {
+    width: 20%;
+  }
+  @media (max-width: 767px) {
+    display: none;
+  }
 `;
 const ImageWrapper = styled.div`
   line-height: 0;
@@ -54,16 +66,30 @@ const RightBox = styled.div`
     font-size: 1.5vw;
     margin: 0.1em 0;
   }
+  @media (max-width: 989px) {
+    h2 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
 `;
 
 const LineSection = styled.section`
   background: #8e93ff;
   position: relative;
   z-index: 10;
-  padding: 0 4.42vw;
+  padding: 0 5.3rem;
+  @media (max-width: 989px) {
+    padding: 0 30px;
+  }
 `;
 const LineInner = styled.div`
-  padding: 9vw 0;
+  padding: 10rem 0;
+  @media (max-width: 989px) {
+    padding: 5rem 0;
+  }
 `;
 const Line = styled.div`
   font-size: 10vw;
@@ -74,14 +100,17 @@ const Line = styled.div`
   }
 `;
 const BoldLine = styled.span`
-  height: 0.3vw;
-  margin: 0 4.5vw;
-  top: 0.5vw;
-  width: calc(100% - 9vw);
+  height: 0.3rem;
+  margin: 0 5.3rem;
+  top: 0.6rem;
+  width: calc(100% - 10rem);
   background-color: #1a1a1a;
+  @media (max-width: 989px) {
+    padding: 0 30px;
+  }
 `;
 const LineSubText = styled.p`
-  margin: 9vw 0;
+  margin: 10rem 0;
   text-align: right;
   max-width: 1500px;
 `;
@@ -94,23 +123,38 @@ const BigText = styled.p`
 `;
 const SkillBox = styled.div`
   max-width: 1280px;
-  margin: 9vw auto 0;
+  margin: 10rem auto 0;
   > div {
     justify-content: space-between;
     align-items: baseline;
   }
+  @media (max-width: 989px) {
+    margin: 5rem auto 0;
+  }
+  @media (max-width: 767px) {
+    margin-top: 40px;
+    > div {
+      flex-direction: column;
+    }
+  }
 `;
 const SkillTitle = styled.p`
-  font-size: 1.5vw;
-  margin-bottom: 1vw;
+  font-size: 1.8rem;
+  margin-bottom: 1.1rem;
   font-weight: bold;
 `;
 const SkillLi = styled.li`
-  font-size: 1.5vw;
+  font-size: 1.8rem;
   letter-spacing: 0.05em;
   svg {
-    margin-right: 10px;
+    margin-right: 0.6rem;
     vertical-align: middle;
+  }
+  @media (max-width: 989px) {
+    font-size: 1.4rem;
+  }
+  @media (max-width: 767px) {
+    font-size: 18px;
   }
 `;
 
@@ -118,54 +162,89 @@ const GallerySection = styled.section`
   background-color: #fff;
   position: relative;
   z-index: 10;
-  padding: 0 4.42vw;
+  padding: 0 5.3rem;
+  @media (max-width: 989px) {
+    padding: 0 30px;
+  }
 `;
 const GalleryInner = styled.div`
   padding: 10vw 0;
+  @media (max-width: 989px) {
+    padding: 80px 0;
+  }
 `;
 const Gallery = styled.div``;
 const GalleryList = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 9vw;
+  margin-top: 10rem;
+  @media (max-width: 989px) {
+    margin-top: 5rem;
+  }
+  @media (max-width: 767px) {
+    margin-top: 40px;
+  }
 `;
 const GalleryCard = styled.div`
   border: 1px solid #000;
-  padding: 2vw;
+  padding: 2.3rem;
   width: 32%;
-  margin-bottom: 1vw;
+  margin-bottom: 1.1rem;
+  @media (max-width: 1200px) {
+    width: 49%;
+  }
+  @media (max-width: 989px) {
+    width: 100%;
+  }
+  @media (max-width: 767px) {
+    padding: 20px;
+  }
 `;
 const GalleryTitle = styled.h2`
-  font-size: 1.5vw;
-  margin: 0 0 10px;
+  font-size: 1.8rem;
+  margin: 0 0 0.6rem;
+  @media (max-width: 989px) {
+    font-size: 1.4rem;
+  }
+  @media (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 const GalleryDescUl = styled.ul`
   margin-left: 1em;
 `;
 const GalleryDesc = styled.li`
-  font-size: 1vw;
+  font-size: 1.1rem;
   list-style: outside;
-  margin-left: 10px;
+  margin-left: 0.6rem;
+  @media (max-width: 767px) {
+    font-size: 14px;
+  }
 `;
 const GalleryStack = styled.p`
-  margin: 15px 0;
+  margin: 0.9rem 0;
   span {
-    padding: 5px 10px;
-    border-radius: 10px;
+    padding: 5px 0.6rem;
+    border-radius: 0.6rem;
     background-color: #000;
     color: #fff;
-    font-size: 0.9vw;
-    margin: 0 10px 5px 0;
+    font-size: 0.9rem;
+    margin: 0 0.6rem 5px 0;
     letter-spacing: 0;
     display: inline-block;
+  }
+  @media (max-width: 767px) {
+    span {
+      font-size: 13px;
+    }
   }
 `;
 const GitLink = styled.a`
   display: inline-block;
   text-decoration: none;
   color: #000;
-  margin-right: 15px;
+  margin-right: 0.9rem;
   svg {
     margin-right: 2px;
     vertical-align: middle;

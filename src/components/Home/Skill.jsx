@@ -66,10 +66,6 @@ const Skill = () => {
                   <SiJavascript />
                   Javascript
                 </Styled.SkillLi>
-                {/* <Styled.SkillLi>
-                  <SiTypescript />
-                  Typescript
-                </Styled.SkillLi> */}
                 <Styled.SkillLi>
                   <SiJquery />
                   Jquery
@@ -98,37 +94,21 @@ const Skill = () => {
                   <SiThymeleaf />
                   Thymeleaf template
                 </Styled.SkillLi>
-                {/* <Styled.SkillLi>
-                  <SiNextdotjs />
-                  Next.js
-                </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <SiRedux />
-                  Redux
-                </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <SiReacttable />
-                  React-Query
-                </Styled.SkillLi>
-                <Styled.SkillLi>
-                  <SiFastapi />
-                  MSW
-                </Styled.SkillLi> */}
               </ul>
             </div>
             <div>
               <ul>
                 <Styled.SkillLi>
                   <AiFillGithub />
-                  Git{" "}
+                  Git
                 </Styled.SkillLi>
                 <Styled.SkillLi>
                   <SiSubversion />
-                  SVN{" "}
+                  SVN
                 </Styled.SkillLi>
                 <Styled.SkillLi>
                   <SiAdobe />
-                  Adobe All{" "}
+                  Adobe All
                 </Styled.SkillLi>
                 <Styled.SkillLi>
                   <GiZeppelin />
