@@ -51,7 +51,7 @@ const Info = () => {
           </Styled.IntroTitleWrapper>
         </Styled.Flex>
       </Styled.IntroSection>
-      <Styled.InfoSection ref={fadeRef} id="About">
+      {/* <Styled.InfoSection ref={fadeRef} id="About">
         <Styled.Flex>
           <Styled.LeftBox>
             <Styled.ImageWrapper>
@@ -60,7 +60,7 @@ const Info = () => {
           </Styled.LeftBox>
           <Styled.RightBox>
             <h2>
-              꾸준히 성장하는 <br />
+              다양한 경험과 문제 해결 능력을 갖춘 <br />
               웹퍼블리셔 변지윤입니다.
             </h2>
             <p>
@@ -74,13 +74,13 @@ const Info = () => {
             <p>지식과 코드를 공유하고 커뮤니케이션 하는 것을 좋아합니다.</p>
           </Styled.RightBox>
         </Styled.Flex>
-      </Styled.InfoSection>
+      </Styled.InfoSection> */}
       <Styled.LineSection>
         <Styled.LineInner>
           <Styled.Line>
             <span className="lineEffect">Markup — Developer</span>
             <Styled.BoldLine></Styled.BoldLine>
-            <span className="lineEffect">Markup — Developer</span>
+            <span className="lineEffect">변지윤입니다</span>
           </Styled.Line>
         </Styled.LineInner>
       </Styled.LineSection>

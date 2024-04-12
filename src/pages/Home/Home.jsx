@@ -12,7 +12,7 @@ const Home = () => {
       <Header />
       <Layout>
         <Info />
-        <Skill />
+        {/* <Skill /> */}
         <Project />
       </Layout>
       <Footer />

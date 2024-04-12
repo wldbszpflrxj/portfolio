@@ -1,5 +1,7 @@
 import React, { useLayoutEffect, useState } from "react";
 import * as Styled from "./Header.styled";
+import resumUrl from "@/assets/download/MyNameIs_ByeonJiYoon.pdf";
+import { ImProfile } from "react-icons/im";
 import { SiNotion } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 
@@ -27,19 +29,27 @@ const Header = () => {
             </Styled.Li>
           </Styled.Gnb>
           <Styled.Gnb>
-            <Styled.Li>
+            {/* <Styled.Li>
               <Styled.Link href="#About">About</Styled.Link>
-            </Styled.Li>
+            </Styled.Li> */}
             <Styled.Li>
-              <Styled.Link href="#Portfolio">Portfolio</Styled.Link>
+              <Styled.Link href="#Portfolio">포트폴리오</Styled.Link>
             </Styled.Li>
-            <Styled.Li>
+            {/* <Styled.Li>
               <Styled.Link href="#Skill">Skill</Styled.Link>
+            </Styled.Li> */}
+            <Styled.Li>
+              <Styled.Link href="#Contact">연락처</Styled.Link>
             </Styled.Li>
             <Styled.Li>
-              <Styled.Link href="#Contact">Contact</Styled.Link>
+              <Styled.Link
+                href={resumUrl}
+                target="_blank"
+              >
+                이력서
+              </Styled.Link>
             </Styled.Li>
-            <Styled.Li>
+            {/* <Styled.Li>
               <Styled.Link
                 href="https://www.notion.so/yunizzang/fdf3c3e192de48009529aa223b60e4b6"
                 target="_blank"
@@ -52,7 +62,7 @@ const Header = () => {
               >
                 <AiFillGithub />
               </Styled.Link>
-            </Styled.Li>
+            </Styled.Li> */}
           </Styled.Gnb>
         </Styled.Nav>
       </Styled.HeaderInner>

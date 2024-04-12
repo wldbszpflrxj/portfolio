@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Title from "../Title/Title";
 import { AiOutlineLink } from "react-icons/ai";
-import { projectList } from "./projectList";
+import { projectList1, projectList2 } from "./projectList";
 
 gsap.registerPlugin(ScrollTrigger);
 const Project = () => {
@@ -49,7 +49,33 @@ const Project = () => {
       <Styled.GalleryInner>
         <Title text="show/project" />
         <Styled.GalleryList>
-          {projectList.map((list, idx) => (
+          {projectList1.map((list, idx) => (
+            <Styled.GalleryCard key={idx}>
+              <Styled.GalleryTitle>{list.title}</Styled.GalleryTitle>
+              <Styled.GalleryDescUl>
+                <Desc desc={list.desc} />
+              </Styled.GalleryDescUl>
+              <Styled.GalleryStack>
+                <Stacks stacks={list.stack} />
+              </Styled.GalleryStack>
+              {list.homepage && (
+                <Styled.GitLink href={list.homepage} target="_blank">
+                  <AiOutlineLink />
+                  홈페이지
+                </Styled.GitLink>
+              )}
+              {list.git && (
+                <Styled.GitLink href={list.git} target="_blank">
+                  <AiOutlineLink />
+                  깃허브
+                </Styled.GitLink>
+              )}
+            </Styled.GalleryCard>
+          ))}
+        </Styled.GalleryList>
+        <Title text="side/project" />
+        <Styled.GalleryList>
+          {projectList2.map((list, idx) => (
             <Styled.GalleryCard key={idx}>
               <Styled.GalleryTitle>{list.title}</Styled.GalleryTitle>
               <Styled.GalleryDescUl>

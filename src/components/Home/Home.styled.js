@@ -77,7 +77,8 @@ const RightBox = styled.div`
 `;
 
 const LineSection = styled.section`
-  background: #8e93ff;
+  margin-top: 100vh;
+  background: #fff;
   position: relative;
   z-index: 10;
   padding: 0 5.3rem;
@@ -86,9 +87,9 @@ const LineSection = styled.section`
   }
 `;
 const LineInner = styled.div`
-  padding: 10rem 0;
+  padding: 10rem 0 0;
   @media (max-width: 989px) {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
   }
 `;
 const Line = styled.div`
@@ -114,7 +115,9 @@ const LineSubText = styled.p`
   text-align: right;
   max-width: 1500px;
 `;
-const BigTitle = styled.h2``;
+const BigTitle = styled.h2`
+  margin: 0;
+`
 const BigText = styled.p`
   font-size: 20vw;
   line-height: 0.9;
@@ -175,28 +178,22 @@ const GalleryInner = styled.div`
 `;
 const Gallery = styled.div``;
 const GalleryList = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-top: 10rem;
-  @media (max-width: 989px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
     margin-top: 5rem;
-  }
-  @media (max-width: 767px) {
-    margin-top: 40px;
-  }
+    @media (max-width: 989px) {
+        margin-top: 4rem;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media (max-width: 767px) {
+        margin-top: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
 `;
 const GalleryCard = styled.div`
   border: 1px solid #000;
   padding: 2.3rem;
-  width: 32%;
-  margin-bottom: 1.1rem;
-  @media (max-width: 1200px) {
-    width: 49%;
-  }
-  @media (max-width: 989px) {
-    width: 100%;
-  }
   @media (max-width: 767px) {
     padding: 20px;
   }
