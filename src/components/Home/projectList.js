@@ -35,9 +35,20 @@ export const projectList1 = [
         homepage: 'https://www.bigdata-119.kr/',
     },
     {
+        title: '빙그레 기업사이트 리뉴얼 구축',
+        desc: ['2022.05 ~ 2022.07', '지속가능경영, 투자정보 반응형 구축', '주가정보 API 연동'],
+        stack: ['Thymeleaf', 'Javascript', 'jQuery', 'SCSS'],
+        homepage: 'https://www.bing.co.kr/',
+    },
+    {
         title: '웹사이트 구축 기반용 CMS 플랫폼 구축',
         desc: ['2022.05 ~ 2022.07', 'CMS 프론트 페이지 반응형 구축', '재사용될 수 있도록 공통 영역 모듈화'],
         stack: ['Thymeleaf', 'Javascript', 'jQuery', 'SCSS'],
+    },
+    {
+        title: 'NHN Shop by pro 스킨 제작',
+        desc: ['2022.05 ~ 2022.07', '고도에서 신규로 출시한 샵바이 프로 영업 및 판매를 목표로 스킨 제작', '웹/모바일 적응형 구축'],
+        stack: ['Handlebars', 'Javascript', 'jQuery', 'SCSS'],
     },
     {
         title: '고운세상코스메틱 기업사이트 리뉴얼 구축',
@@ -52,10 +63,22 @@ export const projectList1 = [
         homepage: 'https://musign.net/',
     },
     {
+        title: '뉴트리몰 이커머스 유지보수',
+        desc: ['2021.01 ~ 2022.07', '부분 리뉴얼', '스타일가이드 통일 작업', '오류 및 최적화 작업', '신규 기능에 따른 작업', '이벤트 퍼블리싱'],
+        stack: ['메이크샵', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.newtreemall.co.kr/',
+    },
+    {
         title: 'SPC 기업사이트 리뉴얼 구축',
         desc: ['2021.03 ~ 2021.12', '반응형, 다국어 구축', '인스타그램, 유튜브 API 연동', 'SVG를 사용하여 path가 그려지는 인터렉션 구현'],
         stack: ['Wordpress', 'Javascript', 'jQuery', 'CSS'],
         homepage: 'https://www.spc.co.kr/',
+    },
+    {
+        title: '닥터포헤어 이커머스 리뉴얼 구축',
+        desc: ['2021.001 ~ 2021.06', '웹 / 모바일 적응형 구축', '브랜드스토리 인터렉션 구현'],
+        stack: ['Godomall5', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.drforhair.co.kr/',
     },
     {
         title: 'V&A뷰티 이커머스 구축',
@@ -70,10 +93,46 @@ export const projectList1 = [
         homepage: 'https://culture.akplaza.com/main',
     },
     {
+        title: 'TLI 웹사이트 리뉴얼 구축',
+        desc: ['2021 (3개월)', '반응형, 다국어 구축', '인트로 인터렉션 구현', '제품소개 페이지 인터렉션 구현'],
+        stack: ['Html', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.tli.co.kr/',
+    },
+    {
+        title: 'TLI 웹사이트 리뉴얼 구축',
+        desc: ['2021 (3개월)', '반응형, 다국어 구축', '인트로 인터렉션 구현', '제품소개 페이지 인터렉션 구현'],
+        stack: ['Html', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.tli.co.kr/',
+    },
+    {
+        title: '홍루이젠 기업, 가맹점주 사이트 리뉴얼 구축',
+        desc: ['2021 (3개월)', '웹 / 모바일 적응형 구축'],
+        stack: ['Godomall5', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.hongruizhen.com/',
+    },
+    {
+        title: '티르티르 이커머스 리뉴얼 구축',
+        desc: ['2020 (6개월)', '웹 / 모바일 적응형 구축'],
+        stack: ['Godomall5', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.tirtir.co.kr/',
+    },
+    {
         title: '디어스 기업사이트 리뉴얼 구축',
         desc: ['2019', 'SVG 인터렉션', '스크롤 인터렉션 구현', 'CI 로고 애니메이션 구현'],
         stack: ['Wordpress', 'Javascript', 'jQuery', 'CSS'],
         homepage: 'http://deers.co.kr/',
+    },
+    {
+        title: '이너시그널 이커머스 구축',
+        desc: ['2019 (6개월)', '웹 / 모바일 적응형 구축'],
+        stack: ['Godomall5', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.innersignal.co.kr/',
+    },
+    {
+        title: '아티스트컴퍼니 웹사이트 구축',
+        desc: ['2017 (3개월)', '반응형 구축'],
+        stack: ['Wordpress', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.artistcompany.co.kr//',
     },
 ]
 
