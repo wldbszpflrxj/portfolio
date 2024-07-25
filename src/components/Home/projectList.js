@@ -66,7 +66,7 @@ export const projectList1 = [
         title: '뮤자인 웹사이트 리뉴얼 구축',
         desc: ['2021.12 ~ 2022.02', 'CANVAS를 사용하여 라인 인터렉션 구현 (메인 인트로, 마우스 포커스에 따라 튕기는 효과)', 'GSAP, Draggable 라이브러리 기반으로 슬라이드 구현'],
         stack: ['Thymeleaf', 'jQuery', 'CANVAS', 'GSAP', 'CSS'],
-        homepage: 'https://musign.net/',
+        // homepage: 'https://musign.net/',
     },
     {
         title: '뉴트리몰 이커머스 유지보수',
@@ -97,12 +97,6 @@ export const projectList1 = [
         desc: ['2020.09 ~ 2021.09', ' 프론트 웹페이지 반응형 구축', '관리시스템 페이지 웹 구축 (150p 이상)', '스크롤 인터렉션 구현'],
         stack: ['Godomall5', 'Javascript', 'jQuery', 'CSS'],
         homepage: 'https://culture.akplaza.com/main',
-    },
-    {
-        title: 'TLI 웹사이트 리뉴얼 구축',
-        desc: ['2021 (3개월)', '반응형, 다국어 구축', '인트로 인터렉션 구현', '제품소개 페이지 인터렉션 구현'],
-        stack: ['Html', 'Javascript', 'jQuery', 'CSS'],
-        homepage: 'https://www.tli.co.kr/',
     },
     {
         title: 'TLI 웹사이트 리뉴얼 구축',
