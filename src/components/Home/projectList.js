@@ -1,5 +1,11 @@
 export const projectList1 = [
     {
+        title: '재외동포청 디지털영사민원시스템 구축',
+        desc: ['2024.01 ~ 2024.07', '웹사이트, 하이브리드 앱 UI 리뉴얼 구축', '웹접근성에 준수하여 마크업 작성 (인증마크 심사 진행중)'],
+        stack: ['Html', 'jQuery', 'CSS', '웹접근성'],
+        homepage: 'https://www.g4k.go.kr/',
+    },
+    {
         title: '국립현대미술관 유지관리',
         desc: ['2024.01', '웹접근성 인증마크 갱신 작업'],
         stack: ['웹접근성'],
