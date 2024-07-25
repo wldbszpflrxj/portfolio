@@ -1,5 +1,22 @@
 export const projectList1 = [
     {
+        title: '국민권익위원회 원스톱 행정심판 시스템 구축',
+        desc: ['2024.09 ~', '사용자, 관리자 시스템 웹페이지 UI 구축'],
+        stack: ['Html', 'jQuery', 'CSS'],
+        // homepage: 'https://www.g4k.go.kr/',
+    },
+    {
+        title: '동두천시 시설관리공단 신규 구축',
+        desc: ['2024.09', '반응형 신규 구축'],
+        stack: ['Html', 'jQuery', 'CSS'],
+    },
+    {
+        title: '재외동포청 디지털영사민원시스템 구축',
+        desc: ['2024.01 ~ 2024.08', '웹사이트, 하이브리드 앱 UI 리뉴얼 구축', '웹접근성인증마크 획득'],
+        stack: ['Html', 'jQuery', 'CSS', '웹접근성'],
+        homepage: 'https://www.g4k.go.kr/',
+    },
+    {
         title: '국립현대미술관 유지관리',
         desc: ['2024.01', '웹접근성 인증마크 갱신 작업'],
         stack: ['웹접근성'],
@@ -25,14 +42,21 @@ export const projectList1 = [
     },
     {
         title: '숭실사이버대학교 차세대 통합정보시스템 구축',
-        desc: ['2023.01 ~ 현재', '반응형 / 다국어 리뉴얼 구축', '웹접근성에 준수하여 마크업 작성 (오픈 후 인증마크 획득 예정)'],
+        desc: ['2023.01 ~ 2024.08', '반응형 / 다국어 리뉴얼 구축', '웹접근성 준수하여 마크업 작성'],
         stack: ['Html', 'jQuery', 'CSS', '웹접근성'],
+        homepage: 'https://www.kcu.ac/',
     },
     {
         title: '소방안전 빅테이터 플랫폼 웹사이트 구축',
         desc: ['2022.12 ~ 2023.03', '반응형 리뉴얼 구축'],
         stack: ['Html', 'jQuery', 'CSS'],
         homepage: 'https://www.bigdata-119.kr/',
+    },
+    {
+        title: '라키오 웹사이트 신규 구축',
+        desc: ['2022.12 ~ 2023.03', '반응형 리뉴얼 구축', 'scroll 애니메이션 구현'],
+        stack: ['Wordpress', 'Html', 'jQuery', 'CSS'],
+        homepage: 'http://lakio.co.kr/',
     },
     {
         title: '빙그레 기업사이트 리뉴얼 구축',
@@ -60,7 +84,7 @@ export const projectList1 = [
         title: '뮤자인 웹사이트 리뉴얼 구축',
         desc: ['2021.12 ~ 2022.02', 'CANVAS를 사용하여 라인 인터렉션 구현 (메인 인트로, 마우스 포커스에 따라 튕기는 효과)', 'GSAP, Draggable 라이브러리 기반으로 슬라이드 구현'],
         stack: ['Thymeleaf', 'jQuery', 'CANVAS', 'GSAP', 'CSS'],
-        homepage: 'https://musign.net/',
+        // homepage: 'https://musign.net/',
     },
     {
         title: '뉴트리몰 이커머스 유지보수',
@@ -91,12 +115,6 @@ export const projectList1 = [
         desc: ['2020.09 ~ 2021.09', ' 프론트 웹페이지 반응형 구축', '관리시스템 페이지 웹 구축 (150p 이상)', '스크롤 인터렉션 구현'],
         stack: ['Godomall5', 'Javascript', 'jQuery', 'CSS'],
         homepage: 'https://culture.akplaza.com/main',
-    },
-    {
-        title: 'TLI 웹사이트 리뉴얼 구축',
-        desc: ['2021 (3개월)', '반응형, 다국어 구축', '인트로 인터렉션 구현', '제품소개 페이지 인터렉션 구현'],
-        stack: ['Html', 'Javascript', 'jQuery', 'CSS'],
-        homepage: 'https://www.tli.co.kr/',
     },
     {
         title: 'TLI 웹사이트 리뉴얼 구축',
