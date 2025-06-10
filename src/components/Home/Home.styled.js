@@ -192,15 +192,19 @@ const GalleryList = styled.div`
     }
 `;
 const GalleryCard = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
   border: 1px solid #000;
   padding: 2.3rem;
   @media (max-width: 767px) {
+    gap: 9px
     padding: 20px;
   }
 `;
 const GalleryTitle = styled.h2`
   font-size: 1.8rem;
-  margin: 0 0 0.6rem;
+  margin: 0;
   @media (max-width: 989px) {
     font-size: 1.4rem;
   }
@@ -220,16 +224,16 @@ const GalleryDesc = styled.li`
   }
 `;
 const GalleryStack = styled.p`
-  margin: 0.9rem 0;
+  margin-top: auto;
   span {
     padding: 5px 0.6rem;
     border-radius: 0.6rem;
     background-color: #000;
     color: #fff;
     font-size: 0.9rem;
-    margin: 0 0.6rem 5px 0;
     letter-spacing: 0;
     display: inline-block;
+    margin: 2px;
   }
   @media (max-width: 767px) {
     span {
@@ -241,9 +245,7 @@ const GitLink = styled.a`
   display: inline-block;
   text-decoration: none;
   color: #000;
-  margin-right: 0.9rem;
   svg {
-    margin-right: 2px;
     vertical-align: middle;
   }
 `;
