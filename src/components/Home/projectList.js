@@ -1,19 +1,20 @@
 export const projectList1 = [
     {
         title: '국민권익위원회 원스톱 행정심판 시스템 구축',
-        desc: ['2024.09 ~', '사용자, 관리자 시스템 웹페이지 UI 구축'],
-        stack: ['Html', 'jQuery', 'CSS'],
-        // homepage: 'https://www.g4k.go.kr/',
+        desc: ['2024.09 ~ 2025.05', '사용자 홈페이지 UI 리뉴얼 구축', '웹접근성 준수하여 마크업 작성'],
+        stack: ['Html', 'Javascript', 'jQuery', 'CSS', '웹접근성'],
+        homepage: 'https://simpan.go.kr/',
     },
     {
         title: '동두천시 시설관리공단 신규 구축',
         desc: ['2024.09', '반응형 신규 구축'],
-        stack: ['Html', 'jQuery', 'CSS'],
+        stack: ['Html', 'Javascript', 'jQuery', 'CSS'],
+        homepage: 'https://www.ddcsiseol.or.kr/',
     },
     {
         title: '재외동포청 디지털영사민원시스템 구축',
         desc: ['2024.01 ~ 2024.08', '웹사이트, 하이브리드 앱 UI 리뉴얼 구축', '웹접근성인증마크 획득'],
-        stack: ['Html', 'jQuery', 'CSS', '웹접근성'],
+        stack: ['Html', 'Javascript', 'jQuery', 'CSS', '웹접근성'],
         homepage: 'https://www.g4k.go.kr/',
     },
     {
@@ -36,13 +37,13 @@ export const projectList1 = [
     },
     {
         title: '아르떼 웹사이트 UI 화면단 리뉴얼 구축',
-        desc: ['2023.07 ~ 2023.09', 'html 산출물 react 컴포넌트(jsx)로 변환하여 UI 적용', '기타 오류 수정'],
+        desc: ['2023.07 ~ 2023.09', 'html 산출물 react 컴포넌트(jsx)로 변환하여 UI 적용', '기타 고도화 작업'],
         stack: ['React', 'Next.js', 'jQuery', 'CSS'],
         homepage: 'https://www.arte.co.kr/',
     },
     {
         title: '숭실사이버대학교 차세대 통합정보시스템 구축',
-        desc: ['2023.01 ~ 2024.08', '반응형 / 다국어 리뉴얼 구축', '웹접근성 준수하여 마크업 작성'],
+        desc: ['2023.01 ~', '반응형 / 다국어 리뉴얼 구축', '웹접근성 준수하여 마크업 작성'],
         stack: ['Html', 'jQuery', 'CSS', '웹접근성'],
         homepage: 'https://www.kcu.ac/',
     },
@@ -54,7 +55,7 @@ export const projectList1 = [
     },
     {
         title: '라키오 웹사이트 신규 구축',
-        desc: ['2022.12 ~ 2023.03', '반응형 리뉴얼 구축', 'scroll 애니메이션 구현'],
+        desc: ['2022.12 ~ 2023.03', '반응형 웹사이트 신규 구축', '스크롤 애니메이션 인터렉션 구현'],
         stack: ['Wordpress', 'Html', 'jQuery', 'CSS'],
         homepage: 'http://lakio.co.kr/',
     },
@@ -96,7 +97,7 @@ export const projectList1 = [
         title: 'SPC 기업사이트 리뉴얼 구축',
         desc: ['2021.03 ~ 2021.12', '반응형, 다국어 구축', '인스타그램, 유튜브 API 연동', 'SVG를 사용하여 path가 그려지는 인터렉션 구현'],
         stack: ['Wordpress', 'Javascript', 'jQuery', 'CSS'],
-        homepage: 'https://www.spc.co.kr/',
+        // homepage: 'https://www.spc.co.kr/',
     },
     {
         title: '닥터포헤어 이커머스 리뉴얼 구축',
